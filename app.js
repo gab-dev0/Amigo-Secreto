@@ -19,3 +19,18 @@ function atualizarLista() {
         listaElement.appendChild(li);
     });
 }
+
+function sortearAmigo() {
+    const nomeSorteadoElement = document.getElementById("resultado");
+    nomeSorteadoElement.innerHTML = "";
+    if (listaDeNomes.length === 0) {
+        nomeSorteadoElement.textContent = "Adicione nomes à lista antes de sortear!";
+        return;
+    }
+
+    const indiceSorteado = Math.floor(Math.random() * listaDeNomes.length);
+    const nomeSorteado = listaDeNomes[indiceSorteado];
+    const li = document.createElement("li");
+    li.textContent = `O amigo secreto sorteado é: ${nomeSorteado}`;
+    nomeSorteadoElement.appendChild(li);
+}
