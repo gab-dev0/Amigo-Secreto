@@ -16,6 +16,10 @@ Sinta-se livre para obter uma cópia do projeto em operação na sua máquina lo
 
 HTML, CSS, JavaScript
 
+# Publicação
+
+https://gab-dev0.github.io/Amigo-Secreto/
+
 # Autor
 
 *Gabriel Silva de Jesus - https://github.com/gab-dev0*
