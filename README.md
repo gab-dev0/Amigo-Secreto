@@ -23,3 +23,5 @@ https://gab-dev0.github.io/Amigo-Secreto/
 # Autor
 
 *Gabriel Silva de Jesus - https://github.com/gab-dev0*
+
+*Projeto Alura/ONE - Oracle Next Education*
